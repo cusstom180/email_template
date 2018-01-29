@@ -1,0 +1,63 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+table {
+	
+	width: 100%;
+	
+	.pad50 {
+		padding-top: 50;
+	}
+		
+	thead {
+		
+		background-image: url(header.jpg);
+		background-repeat: no-repeat;
+   	 	background-position: center;
+    	background-size: cover;
+		
+		h1 {
+			
+			font-size: 3em;
+			padding: 150px;
+			color: #6fa130;
+		}
+
+	}
+	
+	tbody {
+		
+		h1 {
+			
+			font-size: 3em;
+			padding-top: 80px;
+			color: #6fa130;
+			text-align: center;
+		}
+		
+		p {
+			font-size: 1.25em;
+			padding-top: 20px;
+			text-align: center;
+		}
+		
+		.threelineblock {
+			
+			background-image: url(threelineblock.jpg);
+			background-repeat: no-repeat;
+    		background-position: center;
+    		background-size: cover;
+			height: 500px;
+			
+			.imgrow {
+				background-color: #FFFFFF;
+				
+			}
+		}
+	}
+}
+
